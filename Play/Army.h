@@ -11,10 +11,10 @@ protected:
 	int tanks = 0;
 	int snipers = 0;
 	int artillery = 0;
+	
+public:
 	Army();
 	Army(string parNameCountry, string parCommander, int parInfantry, int parTanks, int parSnipers, int parArtillery);
-
-public:
 	virtual void Print();
 	virtual void Fill(string NameCountry, string Commander, int Infantry, int Tanks, int Snipers, int Artillery);
 	string GetNameCountry();
